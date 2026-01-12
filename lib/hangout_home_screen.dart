@@ -45,7 +45,7 @@ class HangoutHomeScreen extends StatelessWidget {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            // 1. HERO HEADER (Matches video background + search)
+            
             _buildHeroHeader(),
 
             // 2. TOP DESTINATIONS GRID (Matches video)
@@ -56,7 +56,7 @@ class HangoutHomeScreen extends StatelessWidget {
             ),
             _buildGridSection(),
 
-            // 3. TRENDING PACKAGES (Matches video vertical cards)
+            
             const Padding(
               padding: EdgeInsets.fromLTRB(20, 25, 20, 10),
               child: Text("Trending Packages",
