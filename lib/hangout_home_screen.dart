@@ -48,7 +48,7 @@ class HangoutHomeScreen extends StatelessWidget {
             
             _buildHeroHeader(),
 
-            // 2. TOP DESTINATIONS GRID (Matches video)
+            
             const Padding(
               padding: EdgeInsets.fromLTRB(20, 25, 20, 10),
               child: Text("Top Destinations",
